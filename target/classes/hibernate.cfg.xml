@@ -15,6 +15,8 @@
     <property name="format_sql">true</property>
     <property name="use_sql_comments">false</property>
     <mapping class="entity.Students"></mapping>
+    <mapping class="entity.Exam"></mapping>
+    <mapping class="entity.Subject"></mapping>
     <!--<mapping resource="entity/Students.hbm.xml"/>-->
   </session-factory>
 </hibernate-configuration>
